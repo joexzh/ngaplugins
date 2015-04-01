@@ -77,7 +77,7 @@ varietynga_weibo_ajax.tf = function(mode){
 		oo._.__add(
 			_$('/a').$0(
 				'href','javascript:void(0)',
-				'innerHTML','完毕<img src="http://ngaplugins.googlecode.com/svn/trunk/progressIndicator16x16.gif" style="height:12px;">',
+				'innerHTML','完毕<img src="https://raw.githubusercontent.com/Miruido/ngaplugins/master/progressIndicator16x16.gif" style="height:12px;">',
 				'title','本帖内容已经显示到最后页,现在每隔6秒将检测一次是否有新回复，你也可以点击这个按钮取消定时检测。',
 				'className','darkred',
 				'onclick','varietynga_weibo_ajax.tf(0)'
@@ -140,7 +140,7 @@ function varietynga_weibo_scroll(check,tfunc){
 		oo._.__add(
 			_$('/a').$0(
 				'href','javascript:void(0)',
-				'innerHTML','正在加载<img src="http://ngaplugins.googlecode.com/svn/trunk/progressIndicator16x16.gif" style="height:12px;">',
+				'innerHTML','正在加载<img src="https://raw.githubusercontent.com/Miruido/ngaplugins/master/progressIndicator16x16.gif" style="height:12px;">',
 				'title','正在加载后面的页面，请稍候...',
 				'className','darkred'
 			)
@@ -205,7 +205,7 @@ function varietynga_Initialization(){
 	if (varietynga_setting.data.set.kj && !ubbcode.collapse.load_ngaplug) varietynga_setCollapseButton();
 	//var x = document.createElement('style');
 	//var h = document.getElementsByTagName('head')[0];
-	//x.innerHTML = ".varietynga_cur_zin{cursor: url(http://ngaplugins.googlecode.com/svn/trunk/img/cur_zin.cur) 14 14,pointer;}.varietynga_cur_zout{cursor: url(http://ngaplugins.googlecode.com/svn/trunk/img/cur_zout.cur) 14 14,pointer;}";
+	//x.innerHTML = ".varietynga_cur_zin{cursor: url(https://raw.githubusercontent.com/Miruido/ngaplugins/master/img/cur_zin.cur) 14 14,pointer;}.varietynga_cur_zout{cursor: url(https://raw.githubusercontent.com/Miruido/ngaplugins/master/img/cur_zout.cur) 14 14,pointer;}";
 	//h.insertBefore(x,h.firstChild);
 	
 	if (location.pathname != "/thread.php" && location.pathname != "/read.php") return;
@@ -531,7 +531,7 @@ var elimg = document.getElementById(arg).parentNode.getElementsByTagName("img")[
 		return;
 	}else{
 		//elimg.parentNode.removeChild(elimg);
-		elimg.src = "http://ngaplugins.googlecode.com/svn/trunk/img/yes.png";
+		elimg.src = "https://raw.githubusercontent.com/Miruido/ngaplugins/master/img/yes.png";
 		elimg.title = "该帖有图片。";
 		for(var i=0;i<postimg.length;i++){
 			if (postimg[i].substr(0,1) == "."){
@@ -677,9 +677,9 @@ function varietynga_search(){
 
 		if(!w) {
 			w = _$('<div class="urltip urltip2" style="margin:0;height:16px;line-height:16px" id="selectTextHintWindow_lintx" onmouseup="commonui.cancelBubble(event)">\
-				<nobr><a href="javascript:void(0)" onclick="commonui.quoteTo.baidu()" title="百度一下" target="_blank" class="inlineBlock" style="background:url(http://ngaplugins.googlecode.com/svn/trunk/img/baidu.png);width:16px;height:16px"></a>\
-				&nbsp;<a href="javascript:void(0)" onclick="commonui.quoteTo.google()" title="谷歌搜索" target="_blank" class="inlineBlock" style="background:url(http://ngaplugins.googlecode.com/svn/trunk/img/google.png);width:16px;height:16px"></a>\
-				&nbsp;<a href="javascript:void(0)" onclick="commonui.quoteTo.qrcode()" title="生成二维码" target="_blank" class="inlineBlock" style="background:url(http://ngaplugins.googlecode.com/svn/trunk/img/qrcode.png);width:16px;height:16px"></a>\
+				<nobr><a href="javascript:void(0)" onclick="commonui.quoteTo.baidu()" title="百度一下" target="_blank" class="inlineBlock" style="background:url(https://raw.githubusercontent.com/Miruido/ngaplugins/master/img/baidu.png);width:16px;height:16px"></a>\
+				&nbsp;<a href="javascript:void(0)" onclick="commonui.quoteTo.google()" title="谷歌搜索" target="_blank" class="inlineBlock" style="background:url(https://raw.githubusercontent.com/Miruido/ngaplugins/master/img/google.png);width:16px;height:16px"></a>\
+				&nbsp;<a href="javascript:void(0)" onclick="commonui.quoteTo.qrcode()" title="生成二维码" target="_blank" class="inlineBlock" style="background:url(https://raw.githubusercontent.com/Miruido/ngaplugins/master/img/qrcode.png);width:16px;height:16px"></a>\
 				</nobr></div>')
 			document.body.appendChild(w)
 		}
@@ -942,19 +942,19 @@ function varietynga_img(){
 			ts.left = nga_plug_elementLeft(timg[i]) + "px";
 			ts.innerHTML = "<div style='position: absolute;z-index:999'>\r\
 				<div onclick='event.cancelBubble = true;varietynga_imgclick(this.parentNode.parentNode,\"l\");return false;' title='左转' \
-				style='display: inline-block; background-image: url(http://ngaplugins.googlecode.com/svn/trunk/img/left.gif); \
+				style='display: inline-block; background-image: url(https://raw.githubusercontent.com/Miruido/ngaplugins/master/img/left.gif); \
 				height: 16px; width: 16px; border:1px solid #777777; background-position: initial initial; background-repeat: initial initial;'></div>\r\
 				<div onclick='event.cancelBubble = true;varietynga_imgclick(this.parentNode.parentNode,\"r\");return false;' title='右转' \
-				style='display: inline-block; background-image: url(http://ngaplugins.googlecode.com/svn/trunk/img/right.gif); \
+				style='display: inline-block; background-image: url(https://raw.githubusercontent.com/Miruido/ngaplugins/master/img/right.gif); \
 				height: 16px; width: 16px; border:1px solid #777777;background-position: initial initial; background-repeat: initial initial;'></div>\
 				<div onclick='event.cancelBubble = true;varietynga_imgclick(this.parentNode.parentNode,\"qrcode\");return false;' title='二维码' \
-				style='display: inline-block; background-image: url(http://ngaplugins.googlecode.com/svn/trunk/img/qrcode.png); \
+				style='display: inline-block; background-image: url(https://raw.githubusercontent.com/Miruido/ngaplugins/master/img/qrcode.png); \
 				height: 16px; width: 16px; border:1px solid #777777;background-position: initial initial; background-repeat: initial initial;'></div>\
 				<div onclick='event.cancelBubble = true;varietynga_imgclick(this.parentNode.parentNode,\"s_b\");return false;' title='百度搜图' \
-				style='display: inline-block; background-image: url(http://ngaplugins.googlecode.com/svn/trunk/img/baidu.png); \
+				style='display: inline-block; background-image: url(https://raw.githubusercontent.com/Miruido/ngaplugins/master/img/baidu.png); \
 				height: 16px; width: 16px; border:1px solid #777777;background-position: initial initial; background-repeat: initial initial;'></div>\
 				<div onclick='event.cancelBubble = true;varietynga_imgclick(this.parentNode.parentNode,\"s_g\");return false;' title='谷歌搜图' \
-				style='display: inline-block; background-image: url(http://ngaplugins.googlecode.com/svn/trunk/img/google.png); \
+				style='display: inline-block; background-image: url(https://raw.githubusercontent.com/Miruido/ngaplugins/master/img/google.png); \
 				height: 16px; width: 16px; border:1px solid #777777;background-position: initial initial; background-repeat: initial initial;'></div>\
 				</div>";
 			timg[i].parentNode.insertBefore(ts,timg[i]);
