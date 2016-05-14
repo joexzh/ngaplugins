@@ -4,7 +4,7 @@
 // ================================================================================
 var nga_plug_control_table_s = [];
 var nga_plug_control_version = "2.0";
-loader.css("https://raw.githubusercontent.com/Miruido/ngaplugins/master/css.css");  //加载CSS
+loader.css("https://cdn.rawgit.com/Miruido/ngaplugins/master/css.css");  //加载CSS
 var nga_plug_varietynga_reload = [];  //存储百变NGA，加载后一页时需要执行的函数  用法： nga_plug_varietynga_reload.push("xxxx")   xxxx为需要执行的函数
 //全局函数：给一个有ID的元素绑定事件以使点击该元素外的区域隐藏该元素
 //注意：需要在弹出菜单的触发链接或者按钮的onclick里面加  event.cancelBubble = true;   这是禁止冒泡的语句，如果该链接或者按钮需要点击后触父元素的某些事件请勿使用该方法
@@ -802,40 +802,40 @@ var nga_plug_plugs = [
 {
 	id:"nga_edit",
 	title:'UBB编辑器',
-	src:"https://raw.githubusercontent.com/Miruido/ngaplugins/master/editor/editor.js",
+	src:"https://cdn.rawgit.com/Miruido/ngaplugins/master/editor/editor.js",
 	testsrc:"http://lintx.org/ngaplugins/editor/editor.js",
 	charset:"UTF-8",
 	check:true
 },{
 	id:"Blacklist",
 	title:"黑名单插件",
-	src:"https://raw.githubusercontent.com/Miruido/ngaplugins/master/Blacklist.js",
+	src:"https://cdn.rawgit.com/Miruido/ngaplugins/master/Blacklist.js",
 	testsrc:"http://lintx.org/ngaplugins/Blacklist.js",
 	charset:"UTF-8",
 	check:true
 },{
 	id:"ngacn_ui_mojo",
 	title:"表情-虚空之魂",
-	src:"https://raw.githubusercontent.com/Miruido/ngaui/master/ngacn_ui_mojo.js",
+	src:"https://cdn.rawgit.com/Miruido/ngaui/master/ngacn_ui_mojo.js",
 	charset:"UTF-8",
 	check:true
 },{
 	id:"mojo_for_lintx",
 	title:"表情-LinTx",
-	src:"https://raw.githubusercontent.com/Miruido/ngaplugins/master/mojo_for_lintx.js",
+	src:"https://cdn.rawgit.com/Miruido/ngaplugins/master/mojo_for_lintx.js",
 	charset:"UTF-8",
 	check:true
 },{
 	id:"othertools",
 	title:"小工具集合",
-	src:"https://raw.githubusercontent.com/Miruido/ngaplugins/master/othertools.js",
+	src:"https://cdn.rawgit.com/Miruido/ngaplugins/master/othertools.js",
 	testsrc:"http://lintx.org/ngaplugins/othertools.js",
 	charset:"UTF-8",
 	check:true
 },{
 	id:"varietynga",
 	title:"百变NGA",
-	src:"https://raw.githubusercontent.com/Miruido/ngaplugins/master/varietynga.js",
+	src:"https://cdn.rawgit.com/Miruido/ngaplugins/master/varietynga.js",
 	testsrc:"http://lintx.org/ngaplugins/varietynga.js",
 	charset:"UTF-8",
 	check:true
